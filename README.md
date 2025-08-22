@@ -23,4 +23,5 @@ Judul Penelitian : Penambahan Distribusi GMSNBurr pada PyMC dan Bambi
 Dosen Pembimbing : Dr. Achmad Syahrul Choir, S.ST., M.Si.
 ```
 
-![Logo GMSNBurr](./Image/logo_gmsnburr.png)
+![Logo GMSNBurr](./image/logo_gmsnburr.png)
+
