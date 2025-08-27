@@ -89,4 +89,7 @@ This work is based on the following research:
 
 * Choir, A. S. (2020). *Distribusi Neo-Normal Baru dan Karakteristiknya*. Institut Teknologi Sepuluh Nopember.
 
+
 **Author**: Ezra Zia Izdihara
+
+![Logo GMSNBurr](./image/logo_gmsnburr.png)
