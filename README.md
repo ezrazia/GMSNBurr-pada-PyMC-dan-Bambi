@@ -16,6 +16,10 @@ You can install the package directly from this GitHub repository using `pip`:
 pip install git+https://github.com/ezrazia/GMSNBurr-pada-PyMC-dan-Bambi.git
 ```
 
+**Note on Manual Integration**
+
+If you encounter issues with the `pip install` method, you can integrate the code directly into your project. To do this, copy the relevant class and function definitions from the source files within the `gmsnburr` directory (`pymc.py`, `bambi.py`, etc.) into your own scripts or modules. This allows you to use the custom distribution for PyMC and Bambi without formal installation.
+
 ### 2. Usage Examples
 
 Once installed, you can import the `GMSNBurr` class and use its methods for various statistical tasks.
@@ -93,3 +97,4 @@ This work is based on the following research:
 **Author**: Ezra Zia Izdihara
 
 ![Logo GMSNBurr](./image/logo_gmsnburr.png)
+
