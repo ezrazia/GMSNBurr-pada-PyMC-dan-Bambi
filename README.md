@@ -63,9 +63,9 @@ import pymc as pm
 with pm.Model() as model:
     # Define priors
     mu = pm.Normal("mu", mu=0, sigma=1)
-    sigma = pm.LogNormal("sigma", sigma=1)
-    alpha1 = pm.LogNormal("alpha1", sigma=3)
-    alpha2 = pm.LogNormal("alpha2", sigma=3)
+    sigma = pm.HalfCauchy("sigma", beta=2)
+    alpha1 = pm.LogNormal("alpha1", mu = 3, sigma=0.5)
+    alpha2 = pm.LogNormal("alpha2", mu = 3, sigma=0.5)
 
     # Define likelihood
     y = GMSNBurr("y", mu=mu, sigma=sigma, alpha1=alpha1, alpha2=alpha2, observed=your_data)
@@ -97,4 +97,5 @@ This work is based on the following research:
 **Author**: Ezra Zia Izdihara
 
 ![Logo GMSNBurr](./image/logo_gmsnburr.png)
+
 
