@@ -1,4 +1,4 @@
-# GMSNBurr: A Custom Distribution for PyMC and Bambi  distribución
+# GMSNBurr Distribution for PyMC and Bambi
 
 This repository provides the implementation of the **GMSNBurr** (Generalized Modified to be Stable as Normal from Burr) distribution, designed for seamless integration with the probabilistic programming libraries **PyMC** and **Bambi**.
 
@@ -90,3 +90,4 @@ This work is based on the following research:
 * Choir, A. S. (2020). *Distribusi Neo-Normal Baru dan Karakteristiknya*. Institut Teknologi Sepuluh Nopember.
 
 **Author**: Ezra Zia Izdihara
+
