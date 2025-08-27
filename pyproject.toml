@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gmsnburr"
+version = "0.1.0"
+description = "Custom GMSNBurr distribution for PyMC and Bambi"
+readme = "README.md"
+authors = [
+  { name="Ezra Zia Izdihara", email="ezrazia05@gmail.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pymc>=5.0",
+    "bambi>=0.13",
+    "numpy",
+    "pandas",
+    "scipy",
+    "matplotlib",
+    "seaborn",
+    "arviz"
+]
+
+[project.urls]
+Homepage = "https://github.com/ezrazia/GMSNBurr-pada-PyMC-dan-Bambi"
+
+[project.optional-dependencies]
+dev = ["black", "flake8", "jupyter"]
