@@ -97,4 +97,3 @@ This work is based on the following research:
 **Author**: Ezra Zia Izdihara
 
 ![Logo GMSNBurr](./image/logo_gmsnburr.png)
-
